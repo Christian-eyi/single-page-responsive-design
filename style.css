@@ -95,14 +95,14 @@ line-height: 1.8rem;
 .formwrap{
   background-color: white;
   width: 80%;
-  height: 80%;
+  height: fit-content;
   border-radius: 5px;
   padding: 15px 25px;
 box-shadow:  1px 7px hsl(0, 28%, 61%) ; 
 }
 form{
   width: 90%;
-  height:fit-content;
+  height: 80%;
   margin: auto;
   
 }
