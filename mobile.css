@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+  background: url(./bg-intro-desktop.png) no-repeat center  ;
+  background-color: hsl(0, 100%, 74%) ;
+  line-height: 1em;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    /* width: 80%;
+    margin: auto; */
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+  }
+
+  #left-side {
+    color: #fff;
+  
+   
+  }
+  #left-side h1{
+    
+    /* margin: auto; */
+    font-size: 20px;
+    word-spacing: 1  px;
+    width: 100%;
+    align-self: center;
+   text-align: center;
+    margin-bottom: 20px;
+  }
+  #left-side p{
+    width: 100%;
+    font-size: ;
+
+   
+    
+    }
+
+    #right-side{
+      color: #fff;
+      width: 100%;
+      height: 80%;
+      margin: auto;
+    }
+    
+    .btn1 {
+      background-color: hsl(248, 32%, 49%);
+      color: #fff;
+      border-radius: 5px;
+      width: 100%;
+      border: 3px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 1px 7px hsl(0, 17%, 52%);
+      box-shadow: transparent;
+      font-size: 16px;
+    }
+    .error{
+      display: none;
+    }
+
+    .formwrap{
+      background-color: white;
+      width: 100%;
+      height: 80%;
+      border-radius: 5px;
+     
+    box-shadow:  1px 7px hsl(0, 28%, 61%) ; 
+    }
+
+    form{
+      width: 100%;
+      height: 80%;
+      margin: auto;
+      
+    }
+
+    .formwrap .formgroup {
+      margin-top: 15px;
+    
+    }
+    .formwrap .formgroup input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: hsla(250, 24%, 80%, 0.957) 0.1px solid ;
+      height: 50px;
+      background-image: none;
+    }
+
+
+
+
+
+    
+    input:invalid+.error{
+      display: none;
+      /* color: hsl(0, 100%, 74%);
+      float: right;
+      font-size: 142x;
+      padding-left: 210px; */
+    }
+
+    .btn {
+      margin-top: 15px;
+      width: 100%;
+      background-color: hsl(154, 59%, 51%)  ;
+      height: 70px ;
+      color: #fff;
+      border-radius: 5px;
+      width: 100%;
+      border: 3px;
+      padding: 10px;
+      margin-bottom: 20px;
+      /* box-shadow: 2px 6px 4px 2px rgba(0, 0, 0, 5); */
+      box-shadow:  1px 2px hsla(154, 91%, 14%, 0.776)  ; 
+    }
+    
+    .btn:hover{
+      background-color: hsl(154, 59%, 51%);
+      box-shadow:  1px 4px hsl(154, 67%, 25%)
+    }
+
+    .formwrap p{
+      color: hsl(248, 12%, 64%);
+      font-size: 12px;
+      
+      margin: auto;
+      text-align: center;
+      }
+
+      span{
+        color: rgb(255, 0, 0);
+      }

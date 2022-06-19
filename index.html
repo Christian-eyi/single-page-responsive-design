@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1000px) " href="mobile.css" />
+    <title>Responsive Design</title>
+  </head>
+  <body>
+    <main>
+      <div id="left-side">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time.Watching
+          scripted tutorials is great, but understanding how devlopers thing is
+          invaluable
+        </p>
+      </div>
+      <div id="right-side">
+        <button class="btn1">
+          <strong>Try it free 7 days</strong> then $20/mo. Thereafter
+        </button>
+        <div class="formwrap">
+          <form action="submit.php">
+            <div class="formgroup">
+              <input
+                type="text"
+                name="name"
+                id="firstname"
+                placeholder="First Name"
+                required
+              />
+              <p class="error">First name cannot be empty</p>
+            </div>
+            <div class="formgroup">
+              <input
+                type="text"
+                name="name"
+                id="firstname"
+                placeholder="Last Name"
+                required
+              />
+              <p class="error">Last name cannot be empty</p>
+            </div>
+            <div class="formgroup">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                required
+              />
+              <p class="error">Looks like this is not an email</p>
+            </div>
+            <div class="formgroup">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                size="20"
+                required
+              />
+              <p class="error">Password cannot be empty</p>
+            </div>
+            <button class="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+            <p class="foot">
+              By clicking the button, you are agreeing to our
+              <span>Terms and services</span>.
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
