@@ -75,10 +75,11 @@ line-height: 1.8rem;
 
 #right-side{
   color: #fff;
-  width: 500px;
+  width: 800px;
   height: 700px;
   margin: auto;
   margin-top: 30px;
+  margin-bottom:30px;
 }
 
 .btn1 {
