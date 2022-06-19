@@ -75,10 +75,10 @@ line-height: 1.8rem;
 
 #right-side{
   color: #fff;
-  width: 800px;
-  height: 700px;
+  width: 900px;
+  height: fit-content;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 80px;
   margin-bottom:30px;
 }
 
