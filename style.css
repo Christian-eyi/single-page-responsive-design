@@ -49,8 +49,9 @@ line-height: 1.8em;
 main{
   display: flex;
   width: 80%;
+   height: 80vh;
   margin: auto;
-  height: 1000px;
+ 
   align-items: center;
 }
 #left-side {
